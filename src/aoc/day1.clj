@@ -1,4 +1,4 @@
-(ns aoc.core)
+(ns aoc.day1)
 (require '[clojure.string :as str])
 
 (defrecord Coord [x y])

@@ -4,4 +4,6 @@
 
 (deftest day2-test
   (testing "Testing AOC Day2"
-    (let [result (day2 "./resources/day2/input")])))
+    (let [{:keys [part1 part2]} (day2 "./resources/day2/input")]
+      (is (= part1 "61529"))
+      (is (= part2 "C2C28")))))
